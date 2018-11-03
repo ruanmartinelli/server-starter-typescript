@@ -1,0 +1,19 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-standard",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {},
+  "rules": {
+    "interface-name": false,
+    "object-literal-sort-keys": false,
+    "member-ordering": [true, { "order": "fields-first" }],
+    "space-before-function-paren": false,
+    "await-promise": false,
+    "only-arrow-functions": false,
+    "indent": false
+  },
+  "rulesDirectory": []
+}

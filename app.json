@@ -1,0 +1,17 @@
+{
+  "name": "TypeScript Node.js server",
+  "description": "Deploy a simple TypeScript Node.js server.",
+  "keywords": ["api", "rest", "node", "typescript", "koa"],
+  "env": {
+    "NODE_ENV": {
+      "value": "production",
+      "required": true
+    },
+    "CONCURRENCY": {
+      "description": "Number of workers (CPU). Default is 1.",
+      "required": false
+    }
+  },
+  "addons": ["logentries"],
+  "image": "heroku/node"
+}
