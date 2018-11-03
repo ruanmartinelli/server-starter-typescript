@@ -1,6 +1,7 @@
 # server-starter-typescript
 
 [![Build Status](https://travis-ci.org/ruanmartinelli/server-starter-typescript.svg?branch=master)](https://travis-ci.org/ruanmartinelli/server-starter-typescript)
+[![codecov](https://codecov.io/gh/ruanmartinelli/server-starter-typescript/branch/master/graph/badge.svg)](https://codecov.io/gh/ruanmartinelli/server-starter-typescript)
 [![Jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 [![GNU Make](https://img.shields.io/badge/Built%20with-GNU%20Make-brightgreen.svg)](https://img.shields.io/badge/Built%20with-GNU%20Make-brightgreen.svg)
 
