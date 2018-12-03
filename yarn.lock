@@ -115,10 +115,10 @@
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.3.10.tgz#4897974cc317bf99d4fe6af1efa15957fa9c94de"
   integrity sha512-DC8xTuW/6TYgvEg3HEXS7cu9OijFqprVDXXiOcdOKZCU/5PJNLZU37VVvmZHdtMiGOa8wAA/We+JzbdxFzQTRQ==
 
-"@types/joi@^13.4.5":
-  version "13.4.5"
-  resolved "https://registry.yarnpkg.com/@types/joi/-/joi-13.4.5.tgz#1329006d79c4db16d1e201d1e35f7bf371137f64"
-  integrity sha512-QbjxYGGd68Id890q+5nYI4o4/WYFFRvmhf5SGT0NJjLVtIHaZkeZrA4kxs5FJ/2wAUYBoVeZq9oMHyFSbQoKZA==
+"@types/joi@^14.0.0":
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/@types/joi/-/joi-14.0.0.tgz#7906aca6850868f39f888efcaef28bbcbbab5498"
+  integrity sha512-q3r+5QfNrthJL+5Pvb9MOP7rJniTfAV+cGbsO2a3ItGSuwmp2vdjjZ/VCWKwGT5lNx4eOvZI4O3IpSIXh3f4RA==
 
 "@types/keygrip@*":
   version "1.0.1"
