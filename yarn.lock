@@ -194,13 +194,13 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.9.4.tgz#0f4cb2dc7c1de6096055357f70179043c33e9897"
   integrity sha512-fCHV45gS+m3hH17zgkgADUSi2RR1Vht6wOZ0jyHP8rjiQra9f+mIcgwPQHllmDocYOstIEbKlxbFDYlgrTPYqw==
 
-"@types/pino@^5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@types/pino/-/pino-5.6.0.tgz#a2acfa716cce3ec0e38a49d99fd2f5a6acdea41e"
-  integrity sha512-2O6JZ3f2T8rTsumm/zk/mgupm++6IxEubGLM9y7WxEOLzAKQ3B1BDgHCmBrYiNoC5BsGBcMfRxLiy2fw3bgU1w==
+"@types/pino@^5.8.3":
+  version "5.8.3"
+  resolved "https://registry.yarnpkg.com/@types/pino/-/pino-5.8.3.tgz#cd355c97a92d57927fe67ee5c7d1fa9349280805"
+  integrity sha512-dpHLhkuV1QNHC6SOnjSn75MeA0L9CGIWWp+axhm2JwgrYiViomUJF5tELWvGopKPrGXhggHAQv1Q5vkBapy6/w==
   dependencies:
-    "@types/events" "*"
     "@types/node" "*"
+    "@types/sonic-boom" "*"
 
 "@types/range-parser@*":
   version "1.2.2"
@@ -214,6 +214,13 @@
   dependencies:
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
+
+"@types/sonic-boom@*":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@types/sonic-boom/-/sonic-boom-0.6.1.tgz#530d17e0b971c8f41cdfd78206171155aee58795"
+  integrity sha512-I0LVjE/VPehYvvMgmLZ8kSutqCaGzwDbyf74C5zoNwsb64KCppCJ7GkrLC4Sic3SzfEsGhcAVFpxR7UEpDi+bg==
+  dependencies:
+    "@types/node" "*"
 
 "@types/superagent@*":
   version "3.8.4"
