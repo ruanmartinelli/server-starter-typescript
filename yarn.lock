@@ -3054,10 +3054,10 @@ koa-logger@^3.2.0:
     humanize-number "0.0.2"
     passthrough-counter "^1.0.0"
 
-koa-respond@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/koa-respond/-/koa-respond-2.0.0.tgz#43d0b8f7998b06b089dc4f5c7b1956ab61837a33"
-  integrity sha512-OrZy1V87qJclVDYv5PHqOz9130SVIxDe3HfGl25hCA5eMvnP0ixV/FYkDV6eac+aPhvy6YCMHGkCxhxDprdiWw==
+koa-respond@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/koa-respond/-/koa-respond-2.1.0.tgz#21dec25d5218a267f48bd3e982389d002f9987b3"
+  integrity sha512-ZClqBPvm+7XN0sw7hM0qmGMVDSBdORFmBp+Qm0myWsvtKyD7Ymr97UnrGgHVOIgCvsy6UaypPpL4QyFQ15K8MA==
   dependencies:
     is-string "^1.0.4"
 
