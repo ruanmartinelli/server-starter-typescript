@@ -138,10 +138,10 @@
     "@types/helmet" "*"
     "@types/koa" "*"
 
-"@types/koa-logger@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@types/koa-logger/-/koa-logger-3.1.0.tgz#133acdbc56d87b5a559cab25528b087381a8fc0d"
-  integrity sha512-L+sJKg8w80uQyalFZqgfJSlrSlwogkeyJvECg3s54YrMtZD3/wdHUZZjIqyjudafU7m7eHG1a33/g4HUqTeNCA==
+"@types/koa-logger@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@types/koa-logger/-/koa-logger-3.1.1.tgz#bf759ba2f25b7562ffa30b09616bb1c1e5070fea"
+  integrity sha512-wp2HaskkPugfwgXgNnc+idnReuJZSTTYQbkcxXjsMhp1kTc342PxDzTL9FXDgBfEvgt9NX1CCGjkwPKX2dlEKQ==
   dependencies:
     "@types/koa" "*"
 
