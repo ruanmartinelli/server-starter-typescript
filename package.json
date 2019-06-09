@@ -13,7 +13,7 @@
   "author": "Ruan Martinelli",
   "license": "MIT",
   "dependencies": {
-    "@koa/cors": "2",
+    "@koa/cors": "3",
     "@types/dotenv": "^6.1.0",
     "@types/jest": "^24.0.13",
     "@types/joi": "^14.3.2",
@@ -48,7 +48,7 @@
     "pino": "^5.11.1",
     "pino-pretty": "^2.5.0",
     "prettier": "^1.16.4",
-    "supertest": "^3.4.2",
+    "supertest": "^4.0.2",
     "throng": "^4.0.0",
     "ts-jest": "^24.0.2",
     "ts-node": "^8.2.0",
