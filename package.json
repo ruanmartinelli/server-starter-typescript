@@ -45,7 +45,7 @@
     "lodash": "^4.17.11",
     "module-alias": "^2.2.0",
     "nodemon": "^1.18.10",
-    "pino": "^5.11.1",
+    "pino": "^5.12.6",
     "pino-pretty": "^2.5.0",
     "prettier": "^1.16.4",
     "supertest": "^4.0.2",
