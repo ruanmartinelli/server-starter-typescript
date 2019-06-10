@@ -524,10 +524,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.9.4.tgz#0f4cb2dc7c1de6096055357f70179043c33e9897"
   integrity sha512-fCHV45gS+m3hH17zgkgADUSi2RR1Vht6wOZ0jyHP8rjiQra9f+mIcgwPQHllmDocYOstIEbKlxbFDYlgrTPYqw==
 
-"@types/pino@^5.8.5":
-  version "5.8.5"
-  resolved "https://registry.yarnpkg.com/@types/pino/-/pino-5.8.5.tgz#b019db3119c0178d3a0df0d19e1716973d18b5fa"
-  integrity sha512-fQR+mtA5xFqC58uVItdz7n0Cfon0z8sXrY6+arxgD/PbbytWunWeB99Oq3Z15J7Z+6z0aj7MsziEkGONxuLkxQ==
+"@types/pino@^5.8.8":
+  version "5.8.8"
+  resolved "https://registry.yarnpkg.com/@types/pino/-/pino-5.8.8.tgz#930eb30f1f1eb76b97792647477aab59e5852574"
+  integrity sha512-SxAdLtEpPkVUdnI3iCUjyFC7WVLFiebyzqypvkuJVo7dyK6BPuQ4lTOuZRKpbEdgG386l5HgfqpymL3oWLOUXg==
   dependencies:
     "@types/node" "*"
     "@types/sonic-boom" "*"
