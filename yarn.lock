@@ -481,10 +481,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-router@^7.0.37":
-  version "7.0.37"
-  resolved "https://registry.yarnpkg.com/@types/koa-router/-/koa-router-7.0.37.tgz#7bff5fad42d500251b39055cc9ee31e8d2351a42"
-  integrity sha512-9PDtp/3FXHS6kfADWgy29NFYYLVuViY1VRvRnBDpIU9vna6wtdXkItrh3VAL0n0thK7Yze9B8EKwewoC1z8EXw==
+"@types/koa-router@^7.0.41":
+  version "7.0.41"
+  resolved "https://registry.yarnpkg.com/@types/koa-router/-/koa-router-7.0.41.tgz#06a4f2db12f13809cdb8761a5151c7fc7b2c417f"
+  integrity sha512-WZwdCzMOvx2zA4MTinmrzqn66I87mE8S5lFgVY05/BVKULDi2Yup2Q2AOnw9vvaLME4IVJhWAeXpZjdZpKZDtg==
   dependencies:
     "@types/koa" "*"
 
