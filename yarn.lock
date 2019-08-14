@@ -3280,10 +3280,10 @@ koa-convert@^1.2.0:
     co "^4.6.0"
     koa-compose "^3.0.0"
 
-koa-helmet@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/koa-helmet/-/koa-helmet-4.2.0.tgz#379ec37069c64c9785b279224f7a41fc434e6596"
-  integrity sha512-eZ/Z9UZ9vY5ubM3O1KcWZwEeqtz+Xzp0F8wkzrKoO5QHsAZ3qkKlS3K45HF/WAjYUMgkQTy7J1s/rVWTlVrt3Q==
+koa-helmet@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/koa-helmet/-/koa-helmet-5.0.0.tgz#70b89312c9c778c2d95f8856b885b6c5e756bb02"
+  integrity sha512-vSpmKT9OyzpmnwenP/9tb/Ldws7OEqiOmKC25mwkIVOD9gIHUXW9UpEzege8Inj7Ga6mOOKblDKHi6gKkp7xJA==
   dependencies:
     helmet "^3.18.0"
 
