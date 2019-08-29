@@ -55,7 +55,7 @@
     "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-config-standard": "^8.0.1",
-    "typescript": "^3.5.3",
+    "typescript": "^3.6.2",
     "uuid": "^3.3.3"
   },
   "_moduleAliases": {
