@@ -44,7 +44,7 @@
     "koa-send": "^5.0.0",
     "lodash": "^4.17.15",
     "module-alias": "^2.2.1",
-    "nodemon": "^1.19.2",
+    "nodemon": "^1.19.3",
     "pino": "^5.13.3",
     "pino-pretty": "^3.2.1",
     "prettier": "^1.18.2",
