@@ -46,7 +46,7 @@
     "module-alias": "^2.2.2",
     "nodemon": "^1.19.4",
     "pino": "^5.13.5",
-    "pino-pretty": "^3.2.2",
+    "pino-pretty": "^3.3.0",
     "prettier": "^1.18.2",
     "supertest": "^4.0.2",
     "throng": "^4.0.0",
