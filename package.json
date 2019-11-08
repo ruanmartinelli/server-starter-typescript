@@ -18,7 +18,7 @@
     "@types/jest": "^24.0.22",
     "@types/joi": "^14.3.4",
     "@types/koa": "^2.0.51",
-    "@types/koa-compose": "^3.2.4",
+    "@types/koa-compose": "^3.2.5",
     "@types/koa-helmet": "^3.1.2",
     "@types/koa-logger": "^3.1.1",
     "@types/koa-router": "^7.0.37",
