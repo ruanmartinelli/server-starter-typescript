@@ -51,7 +51,7 @@
     "supertest": "^4.0.2",
     "throng": "^4.0.0",
     "ts-jest": "^24.1.0",
-    "ts-node": "^8.4.1",
+    "ts-node": "^8.5.2",
     "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
     "tslint-config-standard": "^8.0.1",
