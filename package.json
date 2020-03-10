@@ -40,7 +40,7 @@
     "koa-helmet": "^5.2.0",
     "koa-logger": "^3.2.1",
     "koa-respond": "^2.1.0",
-    "koa-router": "^7.4.0",
+    "koa-router": "^8.0.8",
     "koa-send": "^5.0.0",
     "lodash": "^4.17.15",
     "module-alias": "^2.2.2",
