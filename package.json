@@ -47,7 +47,7 @@
     "nodemon": "^1.19.4",
     "pino": "^5.13.6",
     "pino-pretty": "^3.3.0",
-    "prettier": "^1.18.2",
+    "prettier": "^1.19.1",
     "supertest": "^4.0.2",
     "throng": "^4.0.0",
     "ts-jest": "^24.1.0",
