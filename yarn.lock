@@ -519,10 +519,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-router@^7.0.37":
-  version "7.0.37"
-  resolved "https://registry.yarnpkg.com/@types/koa-router/-/koa-router-7.0.37.tgz#7bff5fad42d500251b39055cc9ee31e8d2351a42"
-  integrity sha512-9PDtp/3FXHS6kfADWgy29NFYYLVuViY1VRvRnBDpIU9vna6wtdXkItrh3VAL0n0thK7Yze9B8EKwewoC1z8EXw==
+"@types/koa-router@^7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@types/koa-router/-/koa-router-7.4.0.tgz#4a5f48ca4432281f7429faedd9510c20945939dc"
+  integrity sha512-CkNyhGOCJ6rpBEG0rlSQhwHsHNwMzGLE49tV3jE5f0TvMzy/SmoCAIlHWdOLs8Mro+BqtKFH6e/lDaibWkydag==
   dependencies:
     "@types/koa" "*"
 
