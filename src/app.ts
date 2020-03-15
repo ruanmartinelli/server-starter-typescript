@@ -9,7 +9,7 @@ import * as koaHelmet from 'koa-helmet'
 import { routes } from './route'
 import { checkEnv } from './util/check-env'
 
-// tslint:disable-next-line no-var-requires
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const koaRespond = require('koa-respond')
 
 export default class App {
