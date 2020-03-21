@@ -10,13 +10,13 @@
     "strictNullChecks": true,
     "noImplicitAny": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedParameters": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "strictPropertyInitialization": false,
     "experimentalDecorators": true,
     "baseUrl": ".",
-    "typeRoots": ["node_modules/@types", "src/types.d.ts"],
+    "typeRoots": ["node_modules/@types", "@types"],
     "paths": {
       "@app/*": ["src/*"],
       "@test/*": ["test/*"]

@@ -1,10 +1,9 @@
 import { HttpError, NotFoundError } from '@app/util/error'
 import { logger } from '@app/util/logger'
-import { Context } from 'koa'
 import { pick } from 'lodash'
 import { v4 as uuidV4 } from 'uuid'
 
-export async function errorHandler(ctx: Context, next: () => Promise<void>) {
+export async function errorHandler(ctx: any, next: () => Promise<void>) {
   try {
     await next()
 

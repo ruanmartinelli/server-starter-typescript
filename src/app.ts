@@ -1,38 +1,29 @@
 import { config } from '@app/config'
-import { errorHandler } from '@app/middleware/error-handler'
+// import { errorHandler } from '@app/middleware/error-handler'
 import { logger } from '@app/util/logger'
-import * as koaCors from '@koa/cors'
-import { Server } from 'http'
-import * as Koa from 'koa'
-import * as koaBody from 'koa-body'
-import * as koaHelmet from 'koa-helmet'
 import { routes } from './route'
 import { checkEnv } from './util/check-env'
-
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const koaRespond = require('koa-respond')
+import * as fastify from 'fastify'
 
 export default class App {
-  public app: Koa
+  public app: fastify.FastifyInstance
   public port: number
-  private server?: Server
 
   constructor(port?: number) {
-    this.app = new Koa()
+    this.app = fastify({ logger: true })
     this.port = port || config.app.port
     this.setup()
   }
 
   public setup() {
-    this.app.use(koaHelmet())
-    this.app.use(koaCors({ origin: '*' }))
-    this.app.use(koaRespond())
-    this.app.use(errorHandler)
-    this.app.use(routes)
-    this.app.use(koaBody())
-    this.app.on('error', err =>
-      logger.error({ err }, 'Unhandled application error'),
-    )
+    this.app.register(require('fastify-helmet'))
+    this.app.register(require('fastify-cors'))
+    this.app.register(routes, { prefix: '/v1' })
+    // this.app.use(errorHandler)
+    // this.app.use(routes)
+    // this.app.on('error', err =>
+    //   logger.error({ err }, 'Unhandled application error'),
+    // )
   }
 
   /**
@@ -58,28 +49,30 @@ export default class App {
 
     checkEnv()
 
-    return new Promise(
-      resolve =>
-        (this.server = this.app.listen(this.port, () => {
-          logger.info(
-            `"${config.app.name}" listening on port ${this.port} on "${
-              config.app.env
-            }" environment`,
-          )
-          resolve()
-        })),
-    )
+    try {
+      await this.app.listen(
+        this.port,
+        '0.0.0.0',
+        (err: fastify.FastifyError) => err && this.fatal(err),
+      )
+
+      logger.info(
+        `"${config.app.name}" listening on port ${this.port} on "${config.app.env}" environment`,
+      )
+    } catch (err) {
+      logger.error(err)
+    }
   }
 
   /**
    * Stops the server.
    */
   public stop() {
-    if (!this.server) {
+    if (!this.app) {
       return
     }
 
-    this.server.close()
+    this.app.close()
 
     process.removeAllListeners('SIGINT')
     process.removeAllListeners('SIGTERM')
