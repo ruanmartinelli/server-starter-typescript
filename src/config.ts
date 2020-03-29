@@ -1,6 +1,7 @@
 import 'dotenv/config'
 import { toNumber } from 'lodash'
-import { Env } from './util/enum'
+
+import { Env } from '@app/util/enum'
 
 export const env: string = process.env.NODE_ENV || Env.Development
 
