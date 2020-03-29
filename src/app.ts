@@ -1,9 +1,11 @@
-import { config } from '@app/config'
-// import { errorHandler } from '@app/middleware/error-handler'
-import { logger } from '@app/util/logger'
-import { routes } from './route'
-import { checkEnv } from './util/check-env'
 import * as fastify from 'fastify'
+
+import { config } from '@app/config'
+import { errorHandler } from '@app/middleware/error-handler'
+import { notFoundHandler } from '@app/middleware/not-found-handler'
+import { logger } from '@app/util/logger'
+import { routes } from '@app/route'
+import { checkEnv } from '@app/util/check-env'
 
 export default class App {
   public app: fastify.FastifyInstance
@@ -19,11 +21,9 @@ export default class App {
     this.app.register(require('fastify-helmet'))
     this.app.register(require('fastify-cors'))
     this.app.register(routes, { prefix: '/v1' })
-    // this.app.use(errorHandler)
-    // this.app.use(routes)
-    // this.app.on('error', err =>
-    //   logger.error({ err }, 'Unhandled application error'),
-    // )
+
+    this.app.setErrorHandler(errorHandler)
+    this.app.setNotFoundHandler(notFoundHandler)
   }
 
   /**
