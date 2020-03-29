@@ -12,7 +12,7 @@ export default class App {
   public port: number
 
   constructor(port?: number) {
-    this.app = fastify({ logger: true })
+    this.app = fastify()
     this.port = port || config.app.port
     this.setup()
   }
