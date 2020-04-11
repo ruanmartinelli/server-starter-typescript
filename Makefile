@@ -22,7 +22,7 @@ dev:
 # Lint and format code
 lint:
 	# Lint with tslint
-	yarn tslint --project tsconfig.json 'src/**/*.ts' --fix
+	yarn eslint . --ext .ts
 	# Format with prettier
 	yarn prettier --write './src/**/*.ts' --loglevel=error
 

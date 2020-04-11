@@ -5,7 +5,7 @@ module.exports = {
   testRegex: '.*\\.spec\\.ts$',
   transform: { '^.+\\.ts$': 'ts-jest' },
   moduleFileExtensions: ['ts', 'json', 'js'],
-  setupTestFrameworkScriptFile: '<rootDir>/test/setup.ts',
+  setupFilesAfterEnv: ['<rootDir>/test/setup.ts'],
   moduleNameMapper: {
     '@app/(.*)$': '<rootDir>/src/$1',
     '@test/(.*)$': '<rootDir>/test/$1',

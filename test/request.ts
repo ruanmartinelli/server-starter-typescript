@@ -1,4 +1,5 @@
-import App from '@app/app'
-import * as supertest from 'supertest'
+import axios from 'axios'
 
-export const request = supertest(new App().app.listen())
+axios.defaults.validateStatus = () => true
+
+export const request = axios

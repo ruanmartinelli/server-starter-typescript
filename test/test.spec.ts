@@ -2,18 +2,20 @@ import { request } from '@test/request'
 
 describe('indexController', () => {
   it('GET /v1/', async () => {
-    const result = await request.get('/').expect(200)
+    const { data, status } = await request.get('/v1')
 
-    expect(result.body).toHaveProperty('version')
+    expect(status).toBe(200)
+    expect(data).toHaveProperty('version')
   })
 })
 
 describe('errorHandler', () => {
   it('Responds with 404', async () => {
-    const { body } = await request.get('/unicorn/42').expect(404)
+    const { data, status } = await request.get('/unicorn/42')
 
-    expect(body).toBeDefined()
-    expect(body.message).toBeString()
-    expect(body.code).toBe('E_NOT_FOUND')
+    expect(status).toBe(404)
+    expect(data).toBeDefined()
+    expect(data.message).toBeString()
+    expect(data.code).toBe('E_NOT_FOUND')
   })
 })

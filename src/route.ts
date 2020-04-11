@@ -1,10 +1,12 @@
-import * as Router from 'koa-router'
+import { status } from '@app/controller/'
+import { FastifyInstance } from 'fastify'
 
-import { index } from '@app/controller/'
+export const routes = (app: FastifyInstance, _opts: any, done: Function) => {
+  app.route({
+    method: 'GET',
+    url: '/',
+    handler: status,
+  })
 
-const router = new Router()
-
-// Routes
-router.get('/', index.status)
-
-export const routes = router.routes()
+  done()
+}
