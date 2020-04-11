@@ -1,6 +1,6 @@
 # Remove auto-generated folders
 install:
-	yarn install
+	npm install
 
 # Remove auto-generated folders
 clean:
@@ -9,7 +9,7 @@ clean:
 # Compile TypeScript files to JS
 compile:
 	rm -rf ./dist
-	yarn tsc --skipLibCheck
+	npx tsc --skipLibCheck
 
 # Starts aplication. Use this on production.
 run: compile
@@ -17,22 +17,22 @@ run: compile
 
 # Starts application in development mode.
 dev:
-	yarn nodemon --watch src --ext ts --exec "make run || exit 1"
+	npx nodemon --watch src --ext ts --exec "make run || exit 1"
 
 # Lint and format code
 lint:
 	# Lint with tslint
-	yarn eslint . --ext .ts
+	npx eslint . --ext .ts
 	# Format with prettier
-	yarn prettier --write './src/**/*.ts' --loglevel=error
+	npx prettier --write './src/**/*.ts' --loglevel=error
 
 # Run all tests
 test:
-	yarn jest --forceExit
+	npx jest --forceExit
 
 # Run tests and coverage
 coverage:
-	yarn jest --coverage --forceExit
+	npx jest --coverage --forceExit
 
 # Compile and run checks before starting application
 # Used on Procfile
