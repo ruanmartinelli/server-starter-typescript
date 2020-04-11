@@ -18,6 +18,6 @@ export function checkEnv() {
   const { error: err } = joi.validate(process.env, envSchema)
 
   if (err) {
-    throw new Error(`Env Error: ${err.details[0].message}`)
+    throw new Error(`${err.details[0].message}`)
   }
 }

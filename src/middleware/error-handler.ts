@@ -1,4 +1,4 @@
-import { HttpError, NotFoundError } from '@app/util/error'
+import { HttpError } from '@app/util/error'
 import { logger } from '@app/util/logger'
 import { pick } from 'lodash'
 import { v4 as uuidV4 } from 'uuid'

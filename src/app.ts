@@ -32,7 +32,7 @@ export default class App {
   public fatal(err: Error) {
     process.removeAllListeners('uncaughtException')
     process.removeAllListeners('unhandledRejection')
-    logger.error('Fatal error:', err)
+    logger.error('Fatal: ', err.stack)
   }
 
   /**
