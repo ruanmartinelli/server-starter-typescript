@@ -1,5 +1,3 @@
-// tslint:disable max-classes-per-file
-
 enum StatusCode {
   Conflict = 'E_CONFLICT',
   Forbidden = 'E_FORBIDDEN',

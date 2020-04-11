@@ -1,4 +1,3 @@
-// ts-lint:disable
 import 'module-alias/register'
 
 import App from '@app/app'
