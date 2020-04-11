@@ -1,4 +1,6 @@
 import * as fastify from 'fastify'
+import * as helmet from 'fastify-helmet'
+import * as cors from 'fastify-cors'
 
 import { config } from '@app/config'
 import { errorHandler } from '@app/middleware/error-handler'
@@ -18,8 +20,8 @@ export default class App {
   }
 
   public setup() {
-    this.app.register(require('fastify-helmet'))
-    this.app.register(require('fastify-cors'))
+    this.app.register(helmet)
+    this.app.register(cors)
     this.app.register(routes, { prefix: '/v1' })
 
     this.app.setErrorHandler(errorHandler)
