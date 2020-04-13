@@ -34,7 +34,7 @@
     "lodash": "^4.17.15",
     "module-alias": "^2.2.2",
     "nodemon": "^2.0.3",
-    "pino": "^6.1.1",
+    "pino": "^6.2.0",
     "pino-pretty": "^4.0.0",
     "prettier": "^2.0.4",
     "throng": "^4.0.0",
