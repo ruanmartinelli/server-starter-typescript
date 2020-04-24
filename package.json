@@ -21,7 +21,7 @@
     "@types/pino": "^6.0.0",
     "@types/supertest": "^2.0.8",
     "@types/throng": "^4.0.2",
-    "@types/uuid": "^7.0.2",
+    "@types/uuid": "^7.0.3",
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
     "fastify": "^2.13.1",
