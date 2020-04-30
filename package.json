@@ -41,7 +41,7 @@
     "ts-jest": "^25.4.0",
     "ts-node": "^8.9.1",
     "typescript": "^3.8.3",
-    "uuid": "^7.0.3"
+    "uuid": "^8.0.0"
   },
   "_moduleAliases": {
     "@app": "dist/src",
