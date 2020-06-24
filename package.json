@@ -19,7 +19,7 @@
     "@types/joi": "^14.3.4",
     "@types/lodash": "^4.14.157",
     "@types/pino": "^6.3.0",
-    "@types/supertest": "^2.0.8",
+    "@types/supertest": "^2.0.9",
     "@types/throng": "^4.0.2",
     "@types/uuid": "^8.0.0",
     "axios": "^0.19.2",
