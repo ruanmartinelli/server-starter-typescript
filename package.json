@@ -24,7 +24,7 @@
     "@types/uuid": "^8.0.0",
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
-    "fastify": "^2.15.1",
+    "fastify": "^3.0.2",
     "fastify-cors": "^3.0.3",
     "fastify-helmet": "^3.0.2",
     "husky": "^4.2.5",
