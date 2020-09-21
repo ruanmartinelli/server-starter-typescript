@@ -37,7 +37,7 @@
     "pino": "^6.6.1",
     "pino-pretty": "^4.2.1",
     "prettier": "^2.1.2",
-    "throng": "^4.0.0",
+    "throng": "^5.0.0",
     "ts-jest": "^25.5.1",
     "ts-node": "^9.0.0",
     "typescript": "^3.9.7",
