@@ -15,7 +15,7 @@
   "dependencies": {
     "@types/axios": "^0.14.0",
     "@types/dotenv": "^8.2.0",
-    "@types/jest": "^26.0.14",
+    "@types/jest": "^26.0.15",
     "@types/joi": "^14.3.4",
     "@types/lodash": "^4.14.162",
     "@types/pino": "^6.3.2",
