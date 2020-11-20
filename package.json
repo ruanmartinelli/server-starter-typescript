@@ -36,7 +36,7 @@
     "nodemon": "^2.0.6",
     "pino": "^6.7.0",
     "pino-pretty": "^4.3.0",
-    "prettier": "^2.1.2",
+    "prettier": "^2.2.0",
     "throng": "^5.0.0",
     "ts-jest": "^25.5.1",
     "ts-node": "^9.0.0",
