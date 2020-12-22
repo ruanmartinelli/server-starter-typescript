@@ -22,7 +22,7 @@
     "@types/supertest": "^2.0.8",
     "@types/throng": "^5.0.0",
     "@types/uuid": "^8.3.0",
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "fastify": "^2.15.1",
     "fastify-cors": "^3.0.3",
